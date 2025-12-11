@@ -17,43 +17,6 @@ Feature importance visualization
 
 Clean and modular code structure
 
-GitHub-ready project layout
-
-Project Structure
-hr-attrition-prediction/
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── notebooks/
-│   └── 01_exploratory_data_analysis.ipynb
-│
-├── src/
-│   ├── data_preprocessing.py
-│   ├── feature_engineering.py
-│   ├── model_training.py
-│   ├── model_evaluation.py
-│   └── utils.py
-│
-├── models/
-│   └── attrition_model.pkl
-│
-├── app/
-│   ├── dashboard.py
-│   └── callbacks.py
-│
-├── reports/
-│   ├── final_report.pdf
-│   └── figures/
-│
-├── tests/
-│   └── test_preprocessing.py
-│
-├── README.md
-├── requirements.txt
-└── .gitignore
-
 Objective
 
 To build a robust classification model that predicts if an employee is likely to leave the company.
